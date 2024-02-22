@@ -6,3 +6,5 @@ Objectives:
 
 Solving Laplace Transform Using Manual Computation
 
+ASSIGNMENT 1
+![Assignment 1](https://github.com/patrickverroya/Labreport_Number1/assets/157602175/ed8ac397-f300-4f3e-bdcb-39a5e585e9ba)
