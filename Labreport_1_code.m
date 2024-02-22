@@ -22,6 +22,16 @@ F4 = (8-3*s+s^2)/(s^3);
 f4 = ilaplace(F4);
 pretty(f4)
 
+%5
+F5 = (5/(s-2))-(4*s/(s^2+9));
+f5 = ilaplace(F5);
+pretty(f5)
+
+%6
+F6 = (7/(s^2+6));
+f6 = ilaplace(F6);
+pretty(f6)
+
 %9
 F9 = (s^4+2*s^3+3*s^2+4*s+5)/(s*(s+1)):
 f9 = ilaplace(F9);
