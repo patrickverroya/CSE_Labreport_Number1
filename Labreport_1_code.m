@@ -16,3 +16,13 @@ pretty(F2)
 f3=(t+1)*(t+2);
 F3=laplace(f3);
 pretty(F3)
+
+%4
+F4 = (8-3*s+s^2)/(s^3);
+f4 = ilaplace(F4);
+pretty(f4)
+
+%9
+F9 = (s^4+2*s^3+3*s^2+4*s+5)/(s*(s+1)):
+f9 = olaplace(F9);
+pretty(f9)
