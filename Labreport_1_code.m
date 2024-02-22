@@ -24,5 +24,5 @@ pretty(f4)
 
 %9
 F9 = (s^4+2*s^3+3*s^2+4*s+5)/(s*(s+1)):
-f9 = olaplace(F9);
+f9 = ilaplace(F9);
 pretty(f9)
